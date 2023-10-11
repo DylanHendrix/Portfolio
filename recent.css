@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/Web 1920 – 7.jpg");
+}
+
+.img_border{
+    padding: 3px;
+    background-color: #1476D8;
+    box-shadow: 8px 8px #50505050;
+}
+
+h1{
+    padding-bottom: 50px;
+    color: #505050;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-top: 150px;
+}
+
+.box h1{
+    margin-left: 140px;
+}
+
+.info{
+    float: right;
+    padding-top: 173px;
+    padding-right: 200px;
+    color: #505050;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+}
+
+.info3{
+    float: right;
+    padding-top: 210px;
+    padding-right: 280px;
+    color: #505050;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+}
+
+#recent2{
+    margin-left: 180px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+
+}
+
+#home p{
+    color: #1476D8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #505050;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-width: 3px;
+    border-color: #f1f1f1;
+
+}
+
+li a{
+    transition: 1s;
+}
+
+li a:hover {
+    color: #5e5e5e;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+#project-information{
+    float: right;
+}
+
+#recent3{
+    margin-left: 265px;
+}
+
+#projectVideo1{
+    width: 600px;
+}
